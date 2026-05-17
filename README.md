@@ -37,6 +37,14 @@ python todo.py list
 ```
 
 No dependencies to install — uses only Python's standard library.
+## Project structure
+
+```
+todo-cli/
+├── todo.py        # CLI entry point (argparse)
+├── db.py          # SQLite database layer
+└── .gitignore
+```
 
 ## Tech stack
 
